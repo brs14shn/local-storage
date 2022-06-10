@@ -14,5 +14,14 @@ const startConf=()=>{
 
 }
 
-//
+const addTodo=(e)=>{
+    e.preventDefault(); //! bir form submit edildiğinde default olarak sayfayı yeniler.Default değerleri sıfırlamamız gerekir!!!
+    console.log("herşey yolunda");
+
+
+
+}
+
+form.addEventListener("submit",addTodo)
+
 
